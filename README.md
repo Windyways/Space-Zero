@@ -7,13 +7,13 @@ Join our [Discord](https://discord.gg/8df7ZB55) if you have any problems or want
 - [Marshall](#Marshall)
 - [Knight](#Knight)
 - [Witness](#Witness)
-- [Fortune Teller](#FortuneTeller)
+- [Fortune Teller](#Fortuneteller)
 - [Paranoid](#Paranoid)
 - [Crewmate](#Crewmate)
 - [Incendiary](#Incendiary)
 - [Brightener](#Brightener)
 - [Lighter](#Lighter)
-- [Nice Watcher](#NiceWatcher)
+- [Nice Watcher](#Nicewatcher)
   
 **Neutral Roles**
 - [Jackal](#Jackal)
@@ -21,12 +21,12 @@ Join our [Discord](https://discord.gg/8df7ZB55) if you have any problems or want
 
 **Madmate Roles**
 - [Madmate](#Madmate)
-- [Mad Snitch](#MadSnitch)
+- [Mad Snitch](#Madsnitch)
 - [Parasite](#Parasite)
   
 **Impostor Roles**
-- [Evil Guesser](#EvilGuesser)
-- [Evil Watcher](#EvilWatcher)
+- [Evil Guesser](#Evilguesser)
+- [Evil Watcher](#Evilwatcher)
 - [Impostor](#Impostor)
 
 
