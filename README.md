@@ -220,7 +220,7 @@ If the Fortune Teller finishes their tasks, they can see their target’s role i
 -----------------------
 ## Paranoid
 ### **Team: Crewmates**
-The Paranoid is a Crewmate that is similar to Button Barry.
+The Paranoid is a Crewmate that is similar to Button Barry.\
 You will be able to use your button from anywhere once.
 ### Game Options
 | Name | Description | Type | Default |
@@ -328,7 +328,7 @@ Will win with impostors, but neither are aware of each other.
 -----------------------
 ## Mad Snitch
 ### **Team: Impostors**
-The Mad Snitch is a Madmate role that may be able to vent./
+The Mad Snitch is a Madmate role that may be able to vent.\
 Will win with impostors, but neither are aware of each other.\
 When they finish their tasks, the Mad Snitch can see the Impostors.
 ### Game Options
