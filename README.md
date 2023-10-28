@@ -209,7 +209,7 @@ The Witness is a Crewmate that can use their ability to see if their target has 
 -----------------------
 ## Fortune Teller
 ### **Team: Crewmates**
-The Fortune Teller is a Crewmate that can can use their ability to see a list of roles their target could be.
+The Fortune Teller is a Crewmate that can can use their ability to see a list of roles their target could be.\
 If the Fortune Teller finishes their tasks, they can see their target’s role instead.
 ### Game Options
 | Name | Description | Type | Default |
