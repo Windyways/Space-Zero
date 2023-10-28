@@ -13,7 +13,7 @@ Join our [Discord](https://discord.gg/8df7ZB55) if you have any problems or want
 - [Incendiary](#Incendiary)
 - [Brightener](#Brightener)
 - [Lighter](#Lighter)
-- [Nice Watcher](#Nicewatcher)
+- [Nice Watcher](#Nice-Watcher)
   
 **Neutral Roles**
 - [Jackal](#Jackal)
@@ -21,12 +21,12 @@ Join our [Discord](https://discord.gg/8df7ZB55) if you have any problems or want
 
 **Madmate Roles**
 - [Madmate](#Madmate)
-- [Mad Snitch](#Madsnitch)
+- [Mad Snitch](#Mad-Snitch)
 - [Parasite](#Parasite)
   
 **Impostor Roles**
-- [Evil Guesser](#Evilguesser)
-- [Evil Watcher](#Evilwatcher)
+- [Evil Guesser](#Evil-Guesser)
+- [Evil Watcher](#Evil-Watcher)
 - [Impostor](#Impostor)
 
 
