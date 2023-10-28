@@ -209,7 +209,7 @@ The Witness is a Crewmate that can use their ability to see if their target has 
 -----------------------
 ## Fortune Teller
 ### **Team: Crewmates**
-The Fortune Teller is a Crewmate that can can use their ability to see a list of roles their target could be.\ 
+The Fortune Teller is a Crewmate that can can use their ability to see a list of roles their target could be.
 If the Fortune Teller finishes their tasks, they can see their target’s role instead.
 ### Game Options
 | Name | Description | Type | Default |
@@ -220,7 +220,7 @@ If the Fortune Teller finishes their tasks, they can see their target’s role i
 -----------------------
 ## Paranoid
 ### **Team: Crewmates**
-The Paranoid is a Crewmate that is similar to Button Barry.\
+The Paranoid is a Crewmate that is similar to Button Barry.
 You will be able to use your button from anywhere once.
 ### Game Options
 | Name | Description | Type | Default |
