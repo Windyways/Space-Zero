@@ -342,8 +342,8 @@ When they finish their tasks, the Mad Snitch can see the Impostors.
 -----------------------
 ## Parasite
 ### **Team: Impostors**
-The Parasite is a Madmate role that may be able to vent.\ 
-Will win with impostors, but neither are aware of each other.\ 
+The Parasite is a Madmate role that may be able to vent.\
+Will win with impostors, but neither are aware of each other.\
 Additionally, this Madmate has the ability to kill, and can also kill Impostors.
 ### Game Options
 | Name | Description | Type | Default |
