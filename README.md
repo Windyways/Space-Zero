@@ -7,7 +7,7 @@ Join our [Discord](https://discord.gg/8df7ZB55) if you have any problems or want
 - [Marshall](#Marshall)
 - [Knight](#Knight)
 - [Witness](#Witness)
-- [Fortune Teller](#FortuneTeller)
+- [Fortune Teller](#Fortune-Teller)
 - [Paranoid](#Paranoid)
 - [Crewmate](#Crewmate)
 - [Incendiary](#Incendiary)
