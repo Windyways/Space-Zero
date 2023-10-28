@@ -328,7 +328,7 @@ Will win with impostors, but neither are aware of each other.
 -----------------------
 ## Mad Snitch
 ### **Team: Impostors**
-The Mad Snitch is a Madmate role that may be able to vent.\n
+The Mad Snitch is a Madmate role that may be able to vent./
 Will win with impostors, but neither are aware of each other.\
 When they finish their tasks, the Mad Snitch can see the Impostors.
 ### Game Options
