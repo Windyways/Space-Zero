@@ -9,29 +9,29 @@ Join our [Discord](https://discord.gg/8df7ZB55) if you have any problems or want
 
 **Crewmate Roles**
 - [Marshall](#Marshall)
-- [Knight](#knight)
-- [Witness](#witness)
-- [Fortune Teller](#fortuneteller)
-- [Paranoid](#paranoid)
-- [Crewmate](#crewmate)
-- [Incendiary](#incendiary)
-- [Brightener](#brightener)
-- [Lighter](#lighter)
-- [Nice Watcher](#nicewatcher)
+- [Knight](#Knight)
+- [Witness](#Witness)
+- [Fortune Teller](#FortuneTeller)
+- [Paranoid](#Paranoid)
+- [Crewmate](#Crewmate)
+- [Incendiary](#Incendiary)
+- [Brightener](#Brightener)
+- [Lighter](#Lighter)
+- [Nice Watcher](#NiceWatcher)
   
 **Neutral Roles**
-- [Jackal](#jackal)
-- [Hitman](#hitman)
+- [Jackal](#Jackal)
+- [Hitman](#Hitman)
 
 **Madmate Roles**
-- [Madmate](#madmate)
-- [Mad Snitch](#madsnitch)
-- [Parasite](#parasite)
+- [Madmate](#Madmate)
+- [Mad Snitch](#MadSnitch)
+- [Parasite](#Parasite)
   
 **Impostor Roles**
-- [Evil Guesser](#evilguesser)
-- [Evil Watcher](#evilwatcher)
-- [Impostor](#impostor)
+- [Evil Guesser](#EvilGuesser)
+- [Evil Watcher](#EvilWatcher)
+- [Impostor](#Impostor)
 
 
 
@@ -314,6 +314,49 @@ They also have the ability to kill.
 | Hitman Kill Cooldown | The cooldown of the Hitman's Kill Ability | Time | 25s |
 | Hitman Can Vent | Determines if the Hitman can Vent or not | Toggle | False |
 | Hitman Has Impostor Vision | Determines if the Hitman has the same Vision as Impostors or not | Toggle | False |
+
+-----------------------
+# Madmate Roles
+## Madmate
+### **Team: Impostors**
+The Madmate is a Madmate role that may be able to vent.\
+Will win with impostors, but neither are aware of each other.
+### Game Options
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Madmate | The percentage probability of the Madmate appearing | Percentage | 0% |
+| Madmate Can See Votes | Determines if the Madmate can see players' votes in meetings | Toggle | False |
+| Madmate Can Vent | Determines if the Madmate can Vent or not | Toggle | False |
+| Madmate Has Impostor Vision | Determines if the Madmate has the same Vision as Impostors or not | Toggle | False |
+
+-----------------------
+## Mad Snitch
+### **Team: Impostors**
+The Mad Snitch is a Madmate role that may be able to vent.\ 
+Will win with impostors, but neither are aware of each other.\
+When they finish their tasks, the Mad Snitch can see the Impostors.
+### Game Options
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Mad Snitch | The percentage probability of the Mad Snitch appearing | Percentage | 0% |
+| Mad Snitch Can See Votes | Determines if the Mad Snitch can see players' votes in meetings | Toggle | False |
+| Mad Snitch Can Vent | Determines if the Mad Snitch can Vent or not | Toggle | False |
+| Mad Snitch Has Impostor Vision | Determines if the Mad Snitch has the same Vision as Impostors or not | Toggle | False |
+
+-----------------------
+## Parasite
+### **Team: Impostors**
+The Parasite is a Madmate role that may be able to vent.\ 
+Will win with impostors, but neither are aware of each other.\ 
+Additionally, this Madmate has the ability to kill, and can also kill Impostors.
+### Game Options
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Parasite | The percentage probability of the Parasite appearing | Percentage | 0% |
+| Parasite Kill Cooldown | The cooldown of the Parasite's Kill Ability | Time | 25s |
+| Parasite Can See Votes | Determines if the Parasite can see players' votes in meetings | Toggle | False |
+| Parasite Can Vent | Determines if the Parasite can Vent or not | Toggle | False |
+| Parasite Has Impostor Vision | Determines if the Parasite has the same Vision as Impostors or not | Toggle | False |
 
 -----------------------
 # Impostor Roles
