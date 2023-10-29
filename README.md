@@ -18,6 +18,7 @@ Join our [Discord](https://discord.gg/8df7ZB55) if you have any problems or want
 **Neutral Roles**
 - [Jackal](#Jackal)
 - [Hitman](#Hitman)
+- [Berserker](#Berserker)
 
 **Madmate Roles**
 - [Madmate](#Madmate)
@@ -35,6 +36,7 @@ Join our [Discord](https://discord.gg/8df7ZB55) if you have any problems or want
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 2023.7.12s & 2023.7.12e | v0.0.5 | [Download](https://github.com/Windyways/Space-Zero/releases/tag/v0.0.5) |
 | 2023.7.12s & 2023.7.12e | v0.0.4 | [Download](https://github.com/Windyways/Space-Zero/releases/tag/v0.0.4) |
 | 2023.7.12s & 2023.7.12e | v0.0.3 | [Download](https://github.com/Windyways/Space-Zero/releases/tag/v0.0.3) |
 | 2023.7.12s & 2023.7.12e | v0.0.2 | [Download](https://github.com/Windyways/Space-Zero/releases/tag/v0.0.2) |
@@ -42,6 +44,25 @@ Join our [Discord](https://discord.gg/8df7ZB55) if you have any problems or want
 
 <details>
   <summary> Changelog </summary>
+  <details>
+  <summary> v0.0.5 </summary>
+  <ul> <li>Bug Fix: Fixed Hitman having the wrong color on ejection</li> </ul>
+  <ul> <li>Bug Fix: Fixed all guessers unable to guess Hitman</li> </ul>
+  <ul> <li>New Role: Berserker</li> </ul>
+  <ul> <li>Addition: Added new settings for Vigi & Doom to guess Madmates</li> </ul>
+  <ul> <li>Bug Fix: Fixed Parasite Kill Cooldown being Hitman's Kill Cooldown</li> </ul>
+  <ul> <li>Addition: Added new setting for Assassin to guess Madmates</li> </ul>
+  <ul> <li>Bug Fix: Fixed Assassin being unable to guess Parasite</li> </ul>
+  <ul> <li>Bug Fix: Fixed Sheriff unable to kill Madmates</li> </ul>
+  <ul> <li>Bug Fix: Fixed Incorrect Kills showing when Knight kills a Madmate</li> </ul>
+  <ul> <li>Bug Fix: Madmates are now their own faction, so no more Blackscreens</li> </ul>
+  <ul> <li>Bug Fix: Fixed Madmates being considerer as crew to all roles</li> </ul>
+  <ul> <li>Addition: Added more settings regarding Madmates</li> </ul>
+  <ul> <li>Addition: Role Info 4 Newbies Settings</li> </ul>
+  <ul> <li>Bug Fix: Fixed Jackal giving an error to Fortune Teller</li> </ul>
+  <ul> <li>Visual Fix: Fixed a typo in Fortune Teller</li> </ul>
+  </details>
+  
   <details>
   <summary> v0.0.4 </summary>
   <ul> <li>Addition: Jackal & Knight now spawns in Killing Only</li> </ul>
@@ -312,6 +333,20 @@ They also have the ability to kill.
 | Hitman Has Impostor Vision | Determines if the Hitman has the same Vision as Impostors or not | Toggle | False |
 
 -----------------------
+## Berserker
+### **Team: Neutral**
+The Berserker is a Neutral role that has the ability to kill, and their Kill Cooldown lowers with every kill.\ 
+Be the last one standing to win.
+### Game Options
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Berserker | The percentage probability of the Berserker appearing | Percentage | 0% |
+| Berserker Kill Cooldown | The cooldown of the Berserker's Destroy Ability | Time | 25s |
+| Berserker Reduced Kill Cooldown | The amount of time the Berserker's Destroy ability lowers | Time | 5s |
+| Berserker Can Vent | Determines if the Berserker can Vent or not | Toggle | False |
+| Berserker Has Impostor Vision | Determines if the Berserker has the same Vision as Impostors or not | Toggle | False |
+
+-----------------------
 # Madmate Roles
 ## Madmate
 ### **Team: Impostors**
@@ -408,6 +443,8 @@ Has the ability to kill.
 | Max Neutral Evil Roles | The maximum number of Neutral Evil roles a game can have | Number | 1 |
 | Min Neutral Killing Roles | The minimum number of Neutral Killing roles a game can have | Number | 1 |
 | Max Neutral Killing Roles | The maximum number of Neutral Killing roles a game can have | Number | 1 |
+| Min Madmate Roles | The minimum number of Madmate roles a game can have | Number | 1 |
+| Max Madmate Roles | The maximum number of Madmate roles a game can have | Number | 1 |
 
 -----------------------
 # All Any Settings
@@ -503,6 +540,12 @@ Has the ability to kill.
 | See Tasks When Dead | Whether people see everyone's tasks when they're dead | Toggle | False |
 
 -----------------------
+# Space Zero Settings
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Role Info 4 Newbies | Shows any new role's info when a meeting starts | Toggle | True |
+
+-----------------------
 ## Assassin Ability
 ### **Team: Impostors**
 
@@ -526,6 +569,7 @@ If they guess wrong, they die instead.
 | Assassin Guess Neutral Killing  | Whether the Assassin can Guess Neutral Killing roles | Toggle | False |
 | Assassin Guess Impostors  | Whether the Assassin can Guess Impostor roles | Toggle | False |
 | Assassin Guess Crewmate Modifiers  | Whether the Assassin can Guess Crewmate Modifiers | Toggle | False |
+| Assassin Can Guess Madmate Roles  | Whether the Assassin can Guess Madmate roles | Toggle | False |
 | Assassin Can Guess Lovers  | Whether the Assassin can Guess Lovers | Toggle | False |
 | Assassin Can Guess After Voting  | Whether the Assassin can Guess after voting | Toggle | False |
 
