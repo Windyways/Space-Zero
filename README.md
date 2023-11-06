@@ -293,7 +293,6 @@ May flash neutrals if the setting is on.
 | Incendiary Flash Cooldown | The Cooldown of the Incendiary's Flash Ability | Time | 25s |
 | Incendiary Flash Duration | How long the flash ability lasts | Time | 5s |
 | Incendiary Flash Radius | How wide the flash radius is  | Time | 1x |
-| Blind Neutrals | The Cooldown of the Incendiary's Flash Ability | Time | 25s |
 
 
 -----------------------
