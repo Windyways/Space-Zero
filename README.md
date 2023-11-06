@@ -14,11 +14,15 @@ Join our [Discord](https://discord.gg/8df7ZB55) if you have any problems or want
 - [Brightener](#Brightener)
 - [Lighter](#Lighter)
 - [Nice Watcher](#Nice-Watcher)
+- [Ghost](#Ghost)
+- [Ex-Convict](#Ex-Convict)
+- [Mechanic](#Mechanic)
   
 **Neutral Roles**
 - [Jackal](#Jackal)
 - [Hitman](#Hitman)
 - [Berserker](#Berserker)
+- [Opportunist](#Opportunist)
 
 **Madmate Roles**
 - [Madmate](#Madmate)
@@ -26,7 +30,6 @@ Join our [Discord](https://discord.gg/8df7ZB55) if you have any problems or want
 - [Parasite](#Parasite)
   
 **Impostor Roles**
-- [Evil Guesser](#Evil-Guesser)
 - [Evil Watcher](#Evil-Watcher)
 - [Impostor](#Impostor)
 
@@ -36,6 +39,7 @@ Join our [Discord](https://discord.gg/8df7ZB55) if you have any problems or want
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 2023.7.12s & 2023.7.12e | v0.0.5 | [Download](https://github.com/Windyways/Space-Zero/releases/tag/v0.0.6) |
 | 2023.7.12s & 2023.7.12e | v0.0.5 | [Download](https://github.com/Windyways/Space-Zero/releases/tag/v0.0.5) |
 | 2023.7.12s & 2023.7.12e | v0.0.4 | [Download](https://github.com/Windyways/Space-Zero/releases/tag/v0.0.4) |
 | 2023.7.12s & 2023.7.12e | v0.0.3 | [Download](https://github.com/Windyways/Space-Zero/releases/tag/v0.0.3) |
@@ -44,6 +48,26 @@ Join our [Discord](https://discord.gg/8df7ZB55) if you have any problems or want
 
 <details>
   <summary> Changelog </summary>
+  <details>
+  <summary> v0.0.6 </summary>
+  <ul> <li>Removal: Temperarily removed a setting from Incendiary</li> </ul>
+  <ul> <li>Bug Fix: Fixed Vigilante unable to guess Jackal and Berserker in Killing Only</li> </ul>
+  <ul> <li>New Role: Ghost</li> </ul>
+  <ul> <li>New Role: Ex-Convict</li> </ul>
+  <ul> <li>Removal: Temperarily removed Evil Guesser</li> </ul>
+  <ul> <li>New Setting: Announce Alignment</li> </ul>
+  <ul> <li>Change: Nice Watcher is now Crewmate Investive</li> </ul>
+  <ul> <li>New Role: Mechanic</li> </ul>
+  <ul> <li>Visual Fix: Fixed Impostor not being colored on ejection</li> </ul>
+  <ul> <li>Bug Fix: Fixed Survivor and Hitman appearing as winners when NE wins</li> </ul>
+  <ul> <li>New Role: Opportunist</li> </ul>
+  <ul> <li>Visual Fix: Fixed a typo in Berserker's Role Explanation</li> </ul>
+  <ul> <li>Bug Fix: Fixed Knight killing Veterans on alert</li> </ul>
+  <ul> <li>Bug Fix: Fixed Knight able to kill Pestilence</li> </ul>
+  <ul> <li>Visual Fix: Fixed the kill text when imitating Knight and Brightener</li> </ul>
+  <ul> <li>Addition: When Knight kills Aftermath, they can kill again</li> </ul>
+  </details>
+  
   <details>
   <summary> v0.0.5 </summary>
   <ul> <li>Bug Fix: Fixed Hitman having the wrong color on ejection</li> </ul>
@@ -148,7 +172,7 @@ Join our [Discord](https://discord.gg/8df7ZB55) if you have any problems or want
 \
 **9. Duplicate the new Among Us Folder.**\
 \
-**10. Rename it to `Among Us - ToU`.**\
+**10. Rename it to `Among Us - ToU`(maybe).**\
 \
 **11. Double-click on the zip file you downloaded.**\
 \
@@ -306,6 +330,39 @@ The Nice Watcher is a Crewmate that can see votes during meetings.
 | Nice Watcher | The percentage probability of the Nice Watcher appearing | Percentage | 0% |
 
 -----------------------
+## Mechanic
+### **Team: Crewmates**
+
+The Mechanic is a Crewmate that has the ability to vent.
+### Game Options
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Mechanic | The percentage probability of the Mechanic appearing | Percentage | 0% |
+
+-----------------------
+## Ghost
+### **Team: Crewmates**
+
+The Ghost is a Crewmate that can use their ability to go invisible for a certain amount of time.
+### Game Options
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Ghost | The percentage probability of the Ghost appearing | Percentage | 0% |
+| Ghost Invis Cooldown | The cooldown of the Ghost's Invis Ability | Time | 5s |
+| Ghost Invis Duration | How long the invis ability lasts | Time | 5s |
+
+-----------------------
+## Ex-Convict
+### **Team: Crewmates**
+
+The Ex-Convict is a Crewmate that can mark a place on the map similar to escapist, then can recall to teleport to the marked place.
+### Game Options
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Ex-Convict | The percentage probability of the Ex-Convict appearing | Percentage | 0% |
+| Ex-Convict Teleport Cooldown | The cooldown of the Ex-Convict's Mark Ability | Time | 5s |
+
+-----------------------
 # Neutral Roles
 ## Jackal
 ### **Team: Neutral**
@@ -345,6 +402,15 @@ Be the last one standing to win.
 | Berserker Reduced Kill Cooldown | The amount of time the Berserker's Destroy ability lowers | Time | 5s |
 | Berserker Can Vent | Determines if the Berserker can Vent or not | Toggle | False |
 | Berserker Has Impostor Vision | Determines if the Berserker has the same Vision as Impostors or not | Toggle | False |
+
+-----------------------
+## Opportunist
+### **Team: Neutral**
+The Opportunist is a Neutral role that needs to survive until the end to win with any team, even with Neutral Evils.
+### Game Options
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Opportunist | The percentage probability of the Opportunist appearing | Percentage | 0% |
 
 -----------------------
 # Madmate Roles
@@ -388,21 +454,6 @@ Additionally, this Madmate has the ability to kill, and can also kill Impostors.
 | Parasite Can See Votes | Determines if the Parasite can see players' votes in meetings | Toggle | False |
 | Parasite Can Vent | Determines if the Parasite can Vent or not | Toggle | False |
 | Parasite Has Impostor Vision | Determines if the Parasite has the same Vision as Impostors or not | Toggle | False |
-
------------------------
-# Impostor Roles
-## Evil Guesser
-### **Team: Impostors**
-
-The Evil Guesser is an Impostor that will always be able to guess people’s roles during meetings.\
-If you guess a player’s role correctly, they’ll die, and if you’re incorrect, you will die.
-### Game Options
-| Name | Description | Type | Default |
-|----------|:-------------:|:------:|:------:|
-| Evil Guesser | The percentage probability of the Evil Guesser appearing | Percentage | 0% |
-| Max Number Of Assassinations | The amount of guesses the Evil Guesser can do per game | Number | 5 |
-| Can Guess Impostor Roles | Determines if the Evil Guesser can Guess Impostor Roles | Toggle | False |
-| Can Guess Modifiers | Determines if the Evil Guesser can Guess Modifiers | Toggle | False |
 
 -----------------------
 ## Evil Watcher
@@ -543,7 +594,9 @@ Has the ability to kill.
 # Space Zero Settings
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
-| Role Info 4 Newbies | Shows any new role's info when a meeting starts | Toggle | True |
+| Role Info 4 Newbies | Shows any new role's info when a meeting starts | Toggle | False |
+| Announce Alignment Instead Of Faction | Displays the alignment of the player instead of the faction on the intro screen | Toggle | False |
+| Can Imitate Roles That Are Similar To Crew | Imitator can Imitate Imp/Neut roles and convert them into Crew, like Swooper to Ghost | Toggle | False |
 
 -----------------------
 ## Assassin Ability
