@@ -39,7 +39,7 @@ Join our [Discord](https://discord.gg/8df7ZB55) if you have any problems or want
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
-| 2023.7.12s & 2023.7.12e | v0.0.5 | [Download](https://github.com/Windyways/Space-Zero/releases/tag/v0.0.6) |
+| 2023.7.12s & 2023.7.12e | v0.0.6 | [Download](https://github.com/Windyways/Space-Zero/releases/tag/v0.0.6) |
 | 2023.7.12s & 2023.7.12e | v0.0.5 | [Download](https://github.com/Windyways/Space-Zero/releases/tag/v0.0.5) |
 | 2023.7.12s & 2023.7.12e | v0.0.4 | [Download](https://github.com/Windyways/Space-Zero/releases/tag/v0.0.4) |
 | 2023.7.12s & 2023.7.12e | v0.0.3 | [Download](https://github.com/Windyways/Space-Zero/releases/tag/v0.0.3) |
