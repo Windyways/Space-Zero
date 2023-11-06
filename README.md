@@ -284,7 +284,7 @@ The Crewmate is a Crewmate that is like the normal default role in among us, hav
 -----------------------
 ## Incendiary
 ### **Team: Crewmates**
-The Incendiary is a Crewmate that is like Grenadier, can flash players, but can only flash Impostors.\ 
+The Incendiary is a Crewmate that is like Grenadier, can flash players, but can only flash Impostors.\
 May flash neutrals if the setting is on.
 ### Game Options
 | Name | Description | Type | Default |
