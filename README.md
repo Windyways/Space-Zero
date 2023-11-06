@@ -1,7 +1,7 @@
 ## *Note: This repository is an unofficial continuation of Town of Us due to the original repository being discontinued.*
 An Among Us mod that adds a bunch of roles, modifiers and game settings
 
-Join our [Discord]([https://discord.gg/8df7ZB55](https://discord.gg/rcRCdHDjNT)) if you have any problems or want to find people to play with!
+Join our [Discord](https://discord.gg/rcRCdHDjNT) if you have any problems or want to find people to play with!
 
 **Crewmate Roles**
 - [Marshall](#Marshall)
